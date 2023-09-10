@@ -10,3 +10,8 @@ opencv-python
 h5py
 imgaug
 IPython[all]
+
+pip install numpy scipy pillow cython matplotlib scikit-image opencv-python-headless h5py keras
+pip install tensorflow==2.2.0  # You may adjust the TensorFlow version if needed
+pip install imgaug
+pip install git+https://github.com/matterport/Mask_RCNN.git
